@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet/styles.css">
+        <title>TO-DO LIST APP</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="section1">
+                <h1> TO-DO LIST </h1>
+                <p>
+                    <h3 for="add-items"><strong>ADD ITEM</strong></h3>
+                    <input id="add-items" type="text">
+                    <button id="addButton" >Add</button>
+                </p>
+            </div>
+            <div class="section2">
+                <h3>ITEMS</h3>
+                <ul id="listed-items"></ul>
+
+                </ul>
+            </div>
+            <div class="section3">
+                <h3>COMPLETED</h3>
+                <ul id="completed-items"></ul>
+                    <li><input type="checkbox" checked>
+                        <input type="text">
+                        <button class="delete">Delete</button></li>
+                </ul>
+            </div>
+        </div>
+        <script src="js/todo_app.js"></script>
+    </body>
+    </html>
